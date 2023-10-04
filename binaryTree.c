@@ -65,3 +65,19 @@ void postOrden(Node *root) {
     printf("%d\t", root->valor);
 
 }
+
+void porNivel(Node *root) {
+
+}
+
+bool existe(Node *root, int valorBuscaado) {
+    if(root->valor == valorBuscaado){
+        return true;
+    }else{
+        if(root == NULL){
+            return;
+        }
+
+    }
+    return 0;
+}
