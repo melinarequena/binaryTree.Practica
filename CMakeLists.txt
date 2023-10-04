@@ -3,4 +3,4 @@ project(binaryTree_Practica C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(binaryTree_Practica main.c)
+add_executable(binaryTree_Practica main.c binaryTree.c binaryTree.h)
